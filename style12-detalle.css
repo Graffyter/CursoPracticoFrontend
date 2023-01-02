@@ -16,10 +16,10 @@ body{
     margin: 0;
 }
 .product-detail{
-  width: 360px;
-  padding-bottom: 24px;
-  position: absolute;
-  right: 0; 
+    width: 360px;
+    padding-bottom: 24px;
+    position: absolute;
+    right: 0; 
 }
 .product-detail-close {
     background-color: var(--soft-gray);
@@ -37,7 +37,7 @@ body{
 }
 .product-detail-close:hover {
     cursor: pointer;
-  }
+}
 .product-detail > img:nth-child(2){
     width: 100%;
     height: 360px;
@@ -48,14 +48,18 @@ body{
 .dots{
     display: flex;
     justify-content: center;
-    width: 50px;
 }
-.dot{
-    width: 6px;
-    height: 6px;
+.dots > .activo{
+    background-color: var(--hospital-green);
+}
+.dots span{
+    width: 8px;
+    height: 8px;
     background-color: var(--very-ligth-pink);
     border-radius: 50%;
+    margin: 5px;
 }
+
 .product-info {
     margin: 24px 24px 0 24px;
 }
